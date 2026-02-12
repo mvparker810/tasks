@@ -7,13 +7,8 @@ import doggy_img from "./doggy.png";
 function App(): React.JSX.Element {
     return (
         <div className="App">
-
-
-
             <header className="App-header">
-
                 UD CISC275 with React Hooks and TypeScript. Marshall Parker. Hello World.
-
             </header>
             <div style={{backgroundColor: "red"}}>
                 <Button onClick={ () => { console.log("Hello World!") } }>Log Hello World</Button>
@@ -28,9 +23,7 @@ function App(): React.JSX.Element {
                 <li>Y</li>
                 <li>Z</li>
             </ul>
-
-            <img src={doggy_img} alt="Doggy" style = {{width: "100px"}}/>
-
+            <img src={doggy_img} alt = "Doggy" style = {{width: "100px"}}/>
 
         </div>
     );
