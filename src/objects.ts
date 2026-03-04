@@ -1,4 +1,3 @@
-import { ifError } from "assert";
 import { Question, QuestionType } from "./interfaces/question";
 
 /**
