@@ -18,10 +18,12 @@ export function ChooseTeam(): React.JSX.Element {
         if (!team.includes(newMember)) {
             setTeam([...team, newMember]);
         }
+        allOptions.filter((s) => s == newMember);
     }
 
     function clearTeam() {
         setTeam([]);
+        setAllOptions(PEOPLE);
     }
 
     return (
