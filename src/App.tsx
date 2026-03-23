@@ -25,10 +25,10 @@ import doggy_img from "./doggy.png";
 function App(): React.JSX.Element {
     return (
         <div className="App">
-            <h1>header</h1>
             <header className="App-header">
                 UD CISC275 with React Hooks and TypeScript. Marshall Parker.
                 Hello World.
+                <h1>test</h1>
             </header>
             <img src={doggy_img} alt="Doggy" style={{ width: "100px" }} />
             <div style={{ backgroundColor: "red" }}>

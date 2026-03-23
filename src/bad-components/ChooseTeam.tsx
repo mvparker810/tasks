@@ -28,7 +28,7 @@ export function ChooseTeam(): React.JSX.Element {
 
     return (
         <div>
-            <h3>Choose Team</h3>
+            <p>Choose Team</p>
             <Row>
                 <Col>
                     {allOptions.map((option: string) => (
